@@ -1,0 +1,6 @@
+BOY
+GIRL
+BAT
+DOG
+CAR
+BALL
