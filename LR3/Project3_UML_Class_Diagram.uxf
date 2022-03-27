@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>250</y>
+      <w>230</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Bank
+--
++ accounts: dict
++ fileName: string
+--
++ __str__(self): str
++ makeKey(self, name, pin): str
++ add(self, account): any
++ remove(self, name, pin): any
++ get(self, name, pin): any
++ computeInterest(self): int
++ getKeys(self): list
++ save(self, fileName=None)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>250</y>
+      <w>270</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>SavingsAccount
+--
++ RATE: int
++ name: string
++ pin: int
++ balance: float
+--
++ __str__(self): str
++ getBalance(self): float
++ getName(self): str
++ getPin(self): int
++ deposit(self,amount): NULL
++ withdraw(self,amount): str or NULL
++ computeInterest(self): float</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
