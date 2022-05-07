@@ -308,7 +308,7 @@ class UNO:
                     print('\nPC WON!!')
                     playing = False
 
-        new_game = input('Would you like to play again? (y/n)')
+        
         if new_game == 'y':
             continue
         else:
