@@ -103,7 +103,7 @@ def single_card_check(top_card,card):
 
 #FOR PC ONLY
 #To check if PC has any valid card to throw 
-
+def full_hand_check(hand,top_card):
     for c in hand.cards:
         if c.color==top_card.color or c.rank == top_card.rank or c.cardtype=='action_nocolor':
             return hand.remove_card(hand.cardsstr.index(str(c))+1)
